@@ -5,6 +5,7 @@ import numpy as np
 CITY_DATA = { 'chicago': r'C:\Users\pkennon\OneDrive - Brit Group Services\Documents\python test\chicago.csv',
               'new york': r'C:\Users\pkennon\OneDrive - Brit Group Services\Documents\python test\new_york_city.csv',
               'washington': r'C:\Users\pkennon\OneDrive - Brit Group Services\Documents\python test\washington.csv' }
+    """This dictionary links the name of each city to the data for that city"""
 
 city_options = ('new york', 'chicago', 'washington')
 month_options = ('january', 'february', 'march', 'april', 'may', 'june', 'all')
